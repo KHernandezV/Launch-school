@@ -1,0 +1,95 @@
+sum of 2 integers
+
+ask the user for the first integer
+ask the user for the second integer
+print the addition of the two integers
+
+
+START
+
+GET integer 1
+GET integer 2
+
+PRINT integer 1 + integer 2
+
+END
+
+
+
+return concatenated array of strings
+
+create the array of strings
+loop to concatenate the strings
+print the concatenated string
+
+
+START
+
+SET array
+SET concatenated array store
+WHILE iterator < array length
+	iterator of array added to concatenated array store
+PRINT concatenated array store
+
+END 
+
+
+
+return every other element of array
+
+create the array to take from
+create the array to put into
+loop to choose every other array
+return array to put into
+
+
+START
+
+SET array with nums
+SET return array
+WHILE iterator < length of array with nums
+	IF iterator modulo 2 is 0 push iterator of array to return array
+	ELSE skip iteration
+PRINT return array
+
+END
+
+
+
+return index of third occurrence of a character
+
+create string
+create character to look for
+create counter to keep track of character occurrence
+loop to find character in string
+once character has been found for the third time return current index
+if character is not found 3 times return nil
+
+START
+
+SET string
+SET character
+SET counter
+WHILE iterator < string length
+	IF character equals iterator of string add 1 to counter
+	IF counter is 3 return index
+	IF end of iterations is reached and counter isn't 3 return nil
+
+END
+
+
+
+return alternatively merged arrays
+
+START
+
+SET first array
+SET second array
+SET return array
+
+WHILE iterator < array length doubled
+	IF iterator is even unshift from first array into return array
+	ELSE unshift from second array into return array
+PRINT return array
+
+END

@@ -1,0 +1,17 @@
+
+welcome: "Welcome to Calculator! Enter your name:"
+valid_name: "Make sure to enter a valid name."
+greeting: "hello #{name}"
+ask_first: "enter first number"
+ask_second: "enter second number"
+valid_num: "enter a valid number"
+opera_prompt: "<<- MSG
+  1) add
+  2) subtract
+  3) multiply
+  4) divide
+MSG"
+valid_ope: "enter a valid operation. choose 1, 2, 3, 4"
+to_do_calc: "#{opera_to_msg(opera)} the two numbers"
+another: 'do another operation?'
+thank_you: 'thank you for using calculator.'
