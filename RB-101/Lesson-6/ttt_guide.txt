@@ -1,0 +1,24 @@
+Tic Tac Toe Logic
+
+Game begins with an empty board, consisting of a 3x3 board (resembling the pound sign). 
+The players will alternate entering symbols into the 3x3 board, with the objective of:
+  1. Entering 3 symbols consecutively either vertically, horizontally or diagonally.
+  2. Stopping the other player from accomplishing objective 1.
+  3. If objective 1 is ever accomplished, the game should be considered finished, and whomever accomplished objective 1 declared winner.
+If after 9 moves(where the board would be full), the game remains without either player accomplishing goal one, the game is considered a draw.
+Conventions:
+  1. after a game the player with the first move is alternated.
+  2. the markings used by the players are generally the letter "X" and a circle.
+
+
+Implementation
+
+Print a welcome message to the game.
+Ask user to press enter to begin game.
+Loop through
+  1. print the board with current state.
+  2. user enters the position he would like to mark.
+  3. check if board is full, or a winner is found.
+  4. computer enters the position it would mark.
+  5. check if board is full, or a winner is found.
+if a winner is found or board is full, declare the winner, or draw, and ask for rematch.

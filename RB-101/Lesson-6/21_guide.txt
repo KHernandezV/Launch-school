@@ -1,0 +1,26 @@
+
+1. Initialize deck
+2. Deal cards to player and dealer
+3. Player turn: hit or stay
+  - repeat until bust or "stay"
+4. If player bust, dealer wins.
+5. Dealer turn: hit or stay
+  - repeat until total >= 17
+6. If dealer bust, player wins.
+7. Compare cards and declare winner.
+
+Main Loop:
+  initialize hash containing deck
+  deal cards to player and dealer(reveal cards to player, 1 of dealer's)
+  player turn:
+    ask player if keep hitting, until bust or negative, add cards to their hand.
+      if bust: 
+        dealer wins
+  dealer turn:
+    analize opponent hand and compare to dealer hand
+      decide if hand < 17
+        if so:
+          keep hitting until hand is >= 17 or bust
+          decide winner
+  ask to restart game
+end loop.

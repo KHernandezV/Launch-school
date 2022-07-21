@@ -1,0 +1,10 @@
+input : string
+output : all possible 2 character or longer combinations which are equal when reversed
+
+define method
+create array to store palindromes
+use times method to iterate through 0 to input length -1
+  every 2 character or longer combination starting from iterator position to input length
+    check if character combination is equal to character combination reversed
+      if so, push to array storing palindromes
+return array
